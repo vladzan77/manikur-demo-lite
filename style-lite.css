@@ -73,8 +73,8 @@ main { max-width: var(--wrap); margin: 0 auto; padding: 0 var(--gut); }
 .s-board__name { font-weight: 500; }
 .s-board__name em { display: block; font-style: normal; font-size: .84rem; color: var(--c-ink-soft); font-weight: 400; }
 .s-board__dots { flex: 1; border-bottom: 2px dotted var(--hair); transform: translateY(-4px); min-width: 24px; }
-.s-board__price { font: 600 1.15rem/1 var(--f-display); font-variant-numeric: tabular-nums; white-space: nowrap; color: var(--c-accent-deep, var(--c-accent)); }
-.s-board__price small { font: 400 .78rem var(--f-text); color: var(--c-ink-soft); }
+.s-board__price { font: 600 1.15rem/1 var(--f-display); font-variant-numeric: tabular-nums; white-space: nowrap; text-align: right; color: var(--c-accent-deep, var(--c-accent)); }
+.s-board__price small { display: block; margin-top: 4px; font: 400 .78rem/1 var(--f-text); color: var(--c-ink-soft); }
 
 /* шаги: здесь нумерация – настоящая последовательность */
 .s-steps { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 170px), 1fr)); gap: 24px; }
